@@ -55,7 +55,7 @@ conda install pip
 
 While we might not have the time to cover them in depth during the tutorial, I would recommend that you have a look at a few extra-libraries (installation instructions below)
 
-1. Basemap
+### 1. Basemap
 
 Basemap is a graphic library for plotting (static, publication quality) geographical maps, see []()
 
@@ -63,6 +63,6 @@ Basemap is a graphic library for plotting (static, publication quality) geograph
 conda install basemap
 ```
 
-2. Seaborn
+### 2. Seaborn
 
 Seaborn
