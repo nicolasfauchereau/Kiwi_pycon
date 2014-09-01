@@ -16,8 +16,7 @@
   - [Seaborn](#seaborn)
 - [conda: the package and environment manager](#installation-of-additional-libraries)
 
-
- - [Running the IPython notebooks][#running-the-ipython-notebooks]
+- [Running the IPython notebooks][#running-the-ipython-notebooks]
 
 ## The Anaconda python distribution
 
@@ -66,3 +65,7 @@ conda install basemap
 ### Seaborn
 
 Seaborn
+
+## Running the IPython notebooks
+
+The material of the tutorial is in the form of [IPython notebooks](http://ipython.org/notebook.html). In a nutshell an IPython notebook is a web-based (i.e. running in the browser) interactive computational environment where you can combine Python code execution, text, mathematics, plots and rich media into a single document, which makes it an ideal medium for teaching and exploring.
