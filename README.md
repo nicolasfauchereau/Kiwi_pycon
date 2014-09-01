@@ -2,7 +2,7 @@
 
 ## Tutorial: Python and the "pydata" ecosystem for data analysis
 
-[Nicolas Fauchereau](Nicolas.Fauchereau@gmail.com)
+[Nicolas Fauchereau](mailto:Nicolas.Fauchereau@gmail.com)
 
 --
 
@@ -21,7 +21,7 @@
 
 ## The Anaconda python distribution
 
-The Anaconda scientific python distribution is a completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing. It includes the python interpreter itself, the python standard library as well as a set of packages exposing data structures and methods for data manipulation and scientific computing and visualization. In particular it provides Numpy, Scipy, Pandas, Matplotlib (+ basemap). The full list of packages is available at:
+The Anaconda scientific python distribution is a completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing. It includes the python interpreter itself, the python standard library as well as a set of packages exposing data structures and methods for data manipulation and scientific computing and visualization. In particular it provides Numpy, Scipy, Pandas, Matplotlib, scikit-learn and statmodels. The full list of packages is available at:
 
 [http://docs.continuum.io/anaconda/pkgs.html](http://docs.continuum.io/anaconda/pkgs.html)
 
