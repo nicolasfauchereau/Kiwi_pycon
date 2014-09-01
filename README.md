@@ -15,8 +15,7 @@
   - [Folium](#folium)
   - [Seaborn](#seaborn)
 - [conda: the package and environment manager](#installation-of-additional-libraries)
-
-- [Running the IPython notebooks][#running-the-ipython-notebooks]
+- [Running the IPython notebooks](#running-the-ipython-notebooks)
 
 ## The Anaconda python distribution
 
