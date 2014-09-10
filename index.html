@@ -1,44 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Kiwi pycon by nicolasfauchereau</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <title>Kiwi pycon by nicolasfauchereau</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/nicolasfauchereau/Kiwi_pycon">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/nicolasfauchereau/Kiwi_pycon/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/nicolasfauchereau/Kiwi_pycon/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+    <div id="container">
+      <div class="inner">
 
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
+        <header>
           <h1>Kiwi pycon</h1>
-          <p>Repository for the tutorial: &quot;Python and the pydata ecosystem for data analysis&quot;</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/nicolasfauchereau">nicolasfauchereau</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+          <h2>Repository for the tutorial: &quot;Python and the pydata ecosystem for data analysis&quot;</h2>
+        </header>
 
-        <h1>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/nicolasfauchereau/Kiwi_pycon/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/nicolasfauchereau/Kiwi_pycon/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/nicolasfauchereau/Kiwi_pycon" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
 <a name="kiwi-pycon-2014-12-september-2014" class="anchor" href="#kiwi-pycon-2014-12-september-2014"><span class="octicon octicon-link"></span></a>Kiwi Pycon 2014, 12 September 2014</h1>
 
 <h2>
@@ -58,12 +51,13 @@
 
 <ul>
 <li><a href="#basemap">Basemap</a></li>
-<li><a href="#vincent">Vincent</a></li>
-<li><a href="#folium">Folium</a></li>
+<li><a href="#bokeh">Bokeh</a></li>
 <li><a href="#seaborn">Seaborn</a></li>
+<li><a href="#mplD3">mplD3</a></li>
+<li><a href="#bearcart">bearcart</a></li>
+<li><a href="#folium">folium</a></li>
 </ul>
 </li>
-<li><a href="#installation-of-additional-libraries">conda: the package and environment manager</a></li>
 <li><a href="#running-the-ipython-notebooks">Running the IPython notebooks</a></li>
 </ul><h2>
 <a name="the-anaconda-python-distribution" class="anchor" href="#the-anaconda-python-distribution"><span class="octicon octicon-link"></span></a>The Anaconda python distribution</h2>
@@ -80,19 +74,19 @@
 
 <p>Once you have installed Anaconda, you can update to the latest compatible versions of all the pre-installed packages by running:</p>
 
-<pre><code>conda update conda
+<pre><code>$ conda update conda
 </code></pre>
 
 <p>Then</p>
 
-<pre><code>conda update anaconda
+<pre><code>$ conda update anaconda
 </code></pre>
 
 <p>In a terminal.</p>
 
 <p>You also need to install <a href="https://github.com/pypa/pip">pip</a> to install packages from the <a href="http://pypi.python.org/pypi">Python Package Index</a>.</p>
 
-<pre><code>conda install pip
+<pre><code>$ conda install pip
 </code></pre>
 
 <h2>
@@ -105,22 +99,67 @@
 
 <p><strong>Basemap</strong> is a graphic library for plotting (static, publication quality) geographical maps (see <a href="http://matplotlib.org/basemap/">http://matplotlib.org/basemap/</a>). <strong>Basemap</strong> is available directly in <strong>Anaconda</strong> using the conda package manager, install with:</p>
 
-<pre><code>conda install basemap
+<pre><code>$ conda install basemap
+</code></pre>
+
+<h3>
+<a name="bokeh" class="anchor" href="#bokeh"><span class="octicon octicon-link"></span></a>Bokeh</h3>
+
+<p><a href="">Bokeh</a> is a new interactive plotting library developed by the team behind <strong>anaconda</strong>: it is thus installable with conda (if not already installed):</p>
+
+<pre><code>$ conda install bokeh
 </code></pre>
 
 <h3>
 <a name="seaborn" class="anchor" href="#seaborn"><span class="octicon octicon-link"></span></a>Seaborn</h3>
 
-<p>Seaborn</p>
+<p><a href="http://web.stanford.edu/%7Emwaskom/software/seaborn/">seaborn</a> is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. You should be able to install it with <code>pip</code>:</p>
+
+<pre><code>$ pip install seaborn
+</code></pre>
+
+<p>or (if you want the bleeding edge version):</p>
+
+<pre><code>$ pip install git+git://github.com/mwaskom/seaborn.git#egg=seaborn
+</code></pre>
+
+<h3>
+<a name="mpld3" class="anchor" href="#mpld3"><span class="octicon octicon-link"></span></a>mplD3</h3>
+
+<p><a href="http://mpld3.github.io/">mplD3</a> aims at <em>bringing matplotlib to the browser</em>. It has been developed by Jake VanDerPlas. It is also installable by <code>pip</code>:</p>
+
+<pre><code>$ pip install mpld3
+</code></pre>
+
+<h3>
+<a name="bearcart" class="anchor" href="#bearcart"><span class="octicon octicon-link"></span></a>bearcart</h3>
+
+<p><a href="https://github.com/wrobstory/bearcart">bearcart</a> has been developed by <a href="http://wrobstory.github.io/">Rob Story</a> and provides an interface to the rickshaw JavaScript library. It is also installable via <code>pip</code>:</p>
+
+<pre><code>$ pip install bearcart
+</code></pre>
+
+<h3>
+<a name="folium" class="anchor" href="#folium"><span class="octicon octicon-link"></span></a>folium</h3>
+
+<p><a href="https://github.com/wrobstory/folium">folium</a>  has been also been developed by <a href="http://wrobstory.github.io/">Rob Story</a> to provide an interface to the <a href="http://leafletjs.com/">leaflet.js</a> JavaScript mapping library. Install with:</p>
+
+<pre><code>$ pip install folium
+</code></pre>
 
 <h2>
 <a name="running-the-ipython-notebooks" class="anchor" href="#running-the-ipython-notebooks"><span class="octicon octicon-link"></span></a>Running the IPython notebooks</h2>
 
 <p>The material of the tutorial is in the form of <a href="http://ipython.org/notebook.html">IPython notebooks</a>. In a nutshell an IPython notebook is a web-based (i.e. running in the browser) interactive computational environment where you can combine Python code execution, text, mathematics, plots and rich media into a single document, which makes it an ideal medium for teaching and exploring.</p>
-      </section>
+        </section>
 
+        <footer>
+          Kiwi pycon is maintained by <a href="https://github.com/nicolasfauchereau">nicolasfauchereau</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
   </body>
 </html>
