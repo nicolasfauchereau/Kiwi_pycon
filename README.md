@@ -2,7 +2,7 @@
 
 ## Tutorial: Python and the "pydata" ecosystem for data analysis
 
-[Nicolas Fauchereau](mailto:Nicolas.Fauchereau@gmail.com)
+Contact: [Nicolas Fauchereau](mailto:Nicolas.Fauchereau@gmail.com)
 
 --
 
