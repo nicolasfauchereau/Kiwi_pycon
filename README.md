@@ -83,6 +83,13 @@ or (if you want the bleeding edge version):
 $ pip install git+git://github.com/mwaskom/seaborn.git#egg=seaborn
 ```
 
+You may have to install 2 additional libraries for seaborn, `husl` and `moss`. If you experience failures during `seaborn` installation or when trying to import it, tr:  
+
+```
+$ pip install husl
+$ pip install moss
+```
+
 ### mplD3
 
 [mplD3](http://mpld3.github.io/) aims at *bringing matplotlib to the browser*. It has been developed by Jake VanDerPlas. It is also installable by ```pip```:
