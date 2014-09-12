@@ -17,6 +17,7 @@ Contact: [Nicolas Fauchereau](mailto:Nicolas.Fauchereau@gmail.com)
   - [bearcart](#bearcart)
   - [folium](#folium)
 - [Running the IPython notebooks](#running-the-ipython-notebooks)
+- [Links to the static version of the notebooks](#links-to-the-static-version-of-the-notebooks)
 
 ## The Anaconda python distribution
 
