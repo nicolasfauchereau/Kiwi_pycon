@@ -125,3 +125,17 @@ $ ipython notebook
 ```
 
 That should bring up the IPython notebook dashboard, you should be ready to go !
+
+## Links to the static version of the notebooks
+
+Below are links to the static, HTML-rendered version of the tutorial notebooks (thanks to [http://nbviewer.ipython.org/](http://nbviewer.ipython.org/)):
+
++ [Introduction, resources and acknowledgments](http://nbviewer.ipython.org/github/nicolasfauchereau/Kiwi_pycon/blob/master/Introduction.ipynb)
++ [IPython notebook intro](http://nbviewer.ipython.org/urls/raw.github.com/nicolasfauchereau/Kiwi_pycon/master/IPython_notebook.ipynb)
++ [Numpy](http://nbviewer.ipython.org/urls/raw.github.com/nicolasfauchereau/Kiwi_pycon/master/Numpy.ipynb)
++ [Scipy](http://nbviewer.ipython.org/urls/raw.github.com/nicolasfauchereau/Kiwi_pycon/master/Scipy.ipynb)
++ [Matplotlib](http://nbviewer.ipython.org/urls/raw.github.com/nicolasfauchereau/Kiwi_pycon/master/Matplotlib.ipynb)
++ [Pandas](http://nbviewer.ipython.org/urls/raw.github.com/nicolasfauchereau/Kiwi_pycon/master/Pandas.ipynb)
++ [Statistical modelling and Machine Learning](http://nbviewer.ipython.org/urls/raw.github.com/nicolasfauchereau/Kiwi_pycon/master/statistical_modelling.ipynb)
+
+The notebooks on the IPython notebook widgets and the one on creating interactive plots in the browser need to be run.
